@@ -2,6 +2,8 @@
 
 terraform {
   required_providers {
+    # The Datadog provider is used to interact with 
+    # the resources supported by Datadog. 
     datadog = {
       source = "DataDog/datadog"
     }
